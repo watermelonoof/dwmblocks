@@ -2,12 +2,11 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", 	"sb-nettraf",	1,	0},
-	{"", 	"sb-cpu",	1,	1},
-	{"", 	"sb-volume",	1,	2},
+	/* {"", 	"sb-cpu",	1,	1}, */
+	{"", 	"sb-volume",	0,	10},
 	/* {"", 	"sb-disk",	60,	3}, */
-	{"", 	"sb-battery",	1,	4},
-	/* {"", 	"sb-internet",	5,	5}, */
-	{"",	"sb-clock",	1,	6},
+	{"", 	"sb-battery",	5,	4},
+	{"",	"sb-clock",	60,	6},
 	{"",	"sb-internet",	30,	7},
 };
 
